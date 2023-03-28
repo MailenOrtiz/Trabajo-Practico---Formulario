@@ -29,3 +29,183 @@ body {
     width: 50%;
     height: 100vh;
 }
+
+/*DERECHA*/
+
+h1 {
+    padding: 100px 0px 0px 150px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 15px 0px 0px 15px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px 0px 0px 150px;
+    font-size: 17px;
+    margin: 10px 0px 5px 15px;
+    font-weight:300;
+    color: gray;
+}
+
+form {
+    padding: 5px 0px 10px 165px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+form > label {
+    margin: 15px 0px 10px 0px;
+    font-weight: 700;
+    color: #505865;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+form > input {
+    border-radius: 7px;  
+    padding: 10px;
+    border: 1px rgb(184, 178, 178) solid;
+}
+
+.remember {
+    display: flex;
+    color: #505865;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px 0px 20px;
+    justify-content: space-between; 
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.remember > a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #41444d;    
+    font-weight: 700;
+    font-size: 13px;
+}
+
+form > button {
+    padding: 10px;
+    border-radius: 7px; 
+    font-family: 'Open Sans', sans-serif; 
+    background-color: #101727;
+    border-color: #101727;
+    color: rgb(240, 240, 240);
+    font-weight: 500;
+    font-size: 15px;
+    cursor:pointer;
+}
+
+.google {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 0px 0px 10px 165px;
+    text-align: center;
+    justify-content: center;
+}
+
+.google > a {
+    text-decoration: none;
+    border-radius: 7px; 
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 600;
+    font-size: 15px;
+    color: #41444d;    
+    padding: 10px;
+    border: 1px rgb(184, 178, 178) solid;
+}
+
+a > img {
+    width: 20px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.nuevacuenta {
+    padding: 0px 0px 0px 210px;
+    font-size: 15px;
+}
+
+.dontaccount {
+    color: gray;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+
+}
+
+.signfree {
+    font-size: 13px;
+    text-decoration: none;
+    color: #41444d;     
+    font-weight: 700;
+}
+
+/*DERECHA*/
+
+.cajaderecha {
+    color: white;
+    font-size: 20px;
+    margin: 350px 60px 0px 40px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(201, 196, 196, 0.493);
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    border: 1px solid rgba(214, 213, 213, 0.623)
+
+}
+
+.cajaderecha > h3, h4, h5 {
+    margin: 0;
+}
+
+.cajaderecha > h3 {
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 20px;
+
+}
+
+h4 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+h5 {
+    padding: 0px 0px 5px 0px;
+    font-size: 15px;
+    font-weight: 500;
+    display: block;
+}
+
+h6 {
+    margin: 0px;
+    font-weight: 200;
+    font-size: 14px;
+    display: block;
+
+}
+
+.flechas {
+    text-align: right;
+}
+
+.flechas > a {
+    font-size: 35px;
+    text-align: right;
+    display: inline;
+    color: aliceblue;
+}
+
+
+.estrellas {
+    text-align: right;
+    font-size: 15px;
+}
